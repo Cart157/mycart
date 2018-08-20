@@ -1,0 +1,166 @@
+/*累计评价部分*/
+.assess{
+    width: 100%;
+    float: left;
+}
+.assess .assess-num{
+    width: 50%;
+}
+.assess .assess-num .mes{
+    width: 100%;
+    margin: 10px 0px;
+}
+.assess .assess-num .mes p:nth-child(1){
+    margin: 0;
+    float: left;
+}
+.assess .assess-num .mes p:nth-child(2){
+    margin: 0;
+    float: right;
+}
+.assess .assess-num .mes p span{
+    color: #6097f6;
+    font-weight: 700;
+}
+.assess .assess-num table{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.assess .assess-num table thead tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    height: 28px;
+}
+.assess .assess-num table thead th{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.assess .assess-num table tbody tr{
+    height: 30px;
+}
+.assess .assess-num table tbody td{
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #6097f6;
+}
+.assess .assess-num table tbody td:nth-child(1){
+    color: #000;
+    font-weight: 600;
+}
+.assess .assess-num table tbody td:last-child{
+    color: #000;
+    font-weight: 600;
+}
+/*评价内容部分*/
+/*格式化p标签*/
+.assess .assess-content{
+    width: 100%;
+    margin-top: 18px;
+}
+.assess .assess-content ul{
+    width: 100%;
+    height: 28px;
+}
+.assess .assess-content ul li{
+    float: left;
+    margin-right: 10px;
+}
+.assess .assess-content ul li a{
+    display: block;
+    padding: 5px 10px;
+    cursor: default;
+    margin-top: 5px;
+    background-color: #eeeeee;
+}
+/*选中li样式*/
+.li-style{
+    background-color: #6097f6!important;
+    color: #fff;
+}
+/*评论table部分*/
+.assess .assess-content table{
+    width: 100%;
+    border-top: 2px solid #6097f6;
+}
+.assess .assess-content table select{
+    height: 20px;
+    padding: 0;
+}
+.assess .assess-content table .screen{
+    padding: 0;
+    width: 35%;
+    background-color: #6097f6;
+    border: none;
+    vertical-align: top;
+    outline: none;
+}
+.assess .assess-content table tr{
+    border-bottom: 1px solid #ccc;
+}
+.assess .assess-content table a{
+    color: #3366cc;
+}
+.assess .assess-content table thead tr{
+    width: 100%;
+    height: 48px;
+}
+.assess .assess-content table thead tr th{
+    /*text-align: center;*/
+}
+.assess .assess-content table thead tr th:nth-child(1){
+    text-align: left;
+}
+.assess .assess-content table thead .scan td p{
+    text-align: left;
+    margin: 0;
+    border: 1px solid #ffd18c;
+    background-color: #fffaf2;
+    padding-left: 10px;
+    color: #999999;
+}
+.assess .assess-content table tbody tr{
+    width: 100%;
+    height: 94px;
+}
+.assess .assess-content table tbody tr td:nth-child(1){
+    width: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+.assess .assess-content table tbody tr td:last-child{
+    text-align: center;
+}
+.assess .assess-content table tbody tr td p{
+    margin: 0;
+}
+.assess .assess-content table tbody tr td:nth-child(2) p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; 
+    overflow: hidden;
+}
+.assess .assess-content table tbody tr td:nth-child(4) a{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; 
+    overflow: hidden;
+}
+.assess .assess-content table tbody tr td:nth-child(4) span{
+    color: #ff6652;
+}
+.assess .assess-content table tbody tr td:nth-child(6) .reply{
+    color: #3366cc;
+} 
+.assess .assess-content table tbody tr td:nth-child(6) button{
+    border: none;
+    padding: 5px;
+}
+/*模态框样式*/
+.modal .modal-dialog .modal-body input{
+    width: 100%;
+}
+/*弹出框左对齐*/
+.tooltip-inner {
+    text-align:left;
+}
+

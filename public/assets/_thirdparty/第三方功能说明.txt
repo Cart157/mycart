@@ -1,0 +1,18 @@
+ace-admin           这个是依赖于bootstrap3的一套admin模板，不过前台我也用它
+animate             这个是一个纯css的动画效果
+bootstrap3          这个就不用说了，大名鼎鼎
+dotdotdot           未知（这个应该加上jquery前缀吧，应该是jquery的插件）
+font-awesome4       这个就不用说了，大名鼎鼎的字体
+H5C3                html5shiv：解决ie9以下浏览器对html5新增标签的不识别，并导致CSS不起作用的问题。respond:让不支持css3 Media Query的浏览器包括IE6-IE8等其他浏览器支持查询。
+jHsDate             一个日期选择插件，可能转用laydate了
+jquery2             这个就不用说了，大名鼎鼎的dom操作库
+jquery-form         jquery的ajax表单提交插件
+jquery-notifyBar    jquery的消息提示插件（admin登录画面用的）
+jquery-toaster      jquery的消息提示插件（user登录画面用的）
+jquery-ui           这个就不用说了，大名鼎鼎的jquery的UI库
+jquery-validate     jquery的表单验证插件
+laydate             layui的日期组件
+select2             这个应该加上jquery前缀吧，应该是jquery的插件
+swiper              支持手指滑动的幻灯片轮播插件
+timeago             未知（看着像jquery的插件，计算n秒前，n小时前的）
+ueditor             百度的富媒体编辑器

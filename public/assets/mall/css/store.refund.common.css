@@ -1,0 +1,657 @@
+.exchange{
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+}
+.exchange .titleOne{
+    width: 100%;
+    height: 38px;
+}
+.exchange .titleOne ul{
+    width: 100%;
+}
+.exchange .titleOne ul li{
+    float: left;
+    width: 33.333%;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #cccccc;
+    color: #fff;
+}
+.exchange .titleOne ul .first span:after{
+    display: inline-block;
+    content: '1';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .titleOne ul .second span:after{
+    display: inline-block;
+    content: '2';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .titleOne ul .third span:after{
+    display: inline-block;
+    content: '3';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .title{
+    width: 100%;
+    height: 38px;
+}
+.exchange .title ul{
+    width: 100%;
+}
+.exchange .title ul li{
+    float: left;
+    width: 25%;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #cccccc;
+    color: #fff;
+}
+.exchange .title ul .first span:after{
+    display: inline-block;
+    content: '1';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .title ul .second span:after{
+    display: inline-block;
+    content: '2';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .title ul .third span:after{
+    display: inline-block;
+    content: '3';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .title ul .fourth span:after{
+    display: inline-block;
+    content: '4';
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.exchange .title ul .first{
+    background-color: #91cfff;
+}
+/*li样式*/
+.li-already{
+    background-color: #91cfff!important;
+}
+.li-now{
+    background-color: #2485d7!important;
+}
+/*content部分*/
+.exchange .content{
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+}
+/*左侧容器*/
+.exchange .content .container{
+    float: left;
+    width: 75%;
+    border-right: 1px solid #ccc;
+}
+/*左边*/
+.exchange .content .left{
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+}
+/*默认部分*/
+/*提醒部分*/
+.exchange .content .left .handleApply{
+    border-bottom: 1px solid #e8e8e8;
+}
+.exchange .content .left .handleApply p{
+    color: #656565;
+}
+.exchange .content .left  .handleApply .leftFirst{
+    font-size: 20px;
+    font-weight: 600;
+}
+.exchange .content .left .handleApply .leftFirst span{
+    font-size: 16px;
+    color: #2485d7;
+    margin-left: 20px;
+}
+/*操作*/
+.exchange .content .left .handle{
+    padding: 25px 0px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.exchange .content .left .handle button{
+    width: 200px;
+    height: 32px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.exchange .content .left .handle button:nth-child(1){
+    background-color: #2485d7;
+    color: #fff;
+}
+.exchange .content .left .handle button:nth-child(2){
+    background-color: #fff;
+}
+/*协商历史*/
+.exchange .content .consultHistory{
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .consultHistory .consult{
+    font-size: 18px;
+    font-weight: 600;
+}
+.exchange .content .consultHistory .info{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    box-sizing: border-box;
+}
+.exchange .content .consultHistory .info p{
+    margin: 0px 0px 5px 0px;
+}
+.exchange .content .consultHistory .info p:nth-child(3){
+    font-size: 14px;
+}
+.exchange .content .consultHistory .info p span{
+    float: right;
+    color: #9c9c9c;
+}
+.exchange .content .consultHistory .info .userImg{
+    float: left;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+.exchange .content .consultHistory .info img{
+    width: 90px;
+    height: 90px;
+}
+/*客服留言*/
+.exchange .content .service{
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.exchange .content .service span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.exchange .content .service textarea{
+    width: 478px;
+    height: 130px;
+    vertical-align: top;
+    resize: vertical;
+}
+.exchange .content .service button{
+    width: 70px;
+    height: 32px;
+    background-color: #2485d7;
+    color: #fff;
+    border: none;
+    vertical-align: bottom;
+}
+/*拒绝换货*/
+.exchange .content .leftRefuse{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftRefuse .refuse{
+    border-bottom: 1px solid #ccc;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.exchange .content .leftRefuse .refuse p select{
+    width: 216px;
+    height: 30px;
+    border-radius: 5px;
+}
+.exchange .content .leftRefuse .refuse p textarea{
+    width: 521px;
+    height: 130px;
+    border-radius: 5px;
+    vertical-align: top;
+    resize: vertical;
+}
+.exchange .content .leftRefuse .refuse .button{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.exchange .content .leftRefuse .refuse .button input{
+    width: 198px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.exchange .content .leftRefuse .refuse .button .firstButton{
+    background-color: #2485d7;
+    color: #fff;
+}
+.exchange .content .leftRefuse .refuse .button .secondButton{
+    background-color: #fff;
+}
+.exchange .content .leftRefuse .refuse .upload a{
+    vertical-align: top;
+}
+.exchange .content .leftRefuse .refuse .upload a span{
+    display: block;
+    width: 100%;
+    height: 33px;
+    line-height: 32px;
+    font-size: 30px;
+}
+/*二次拒绝换货*/
+.exchange .content .leftRefuseAgain{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftRefuseAgain .refuse{
+    border-bottom: 1px solid #ccc;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.exchange .content .leftRefuseAgain .refuse p select{
+    width: 216px;
+    height: 30px;
+    border-radius: 5px;
+}
+.exchange .content .leftRefuseAgain .refuse p textarea{
+    width: 521px;
+    height: 130px;
+    border-radius: 5px;
+    vertical-align: top;
+    resize: vertical;
+}
+.exchange .content .leftRefuseAgain .refuse .button{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.exchange .content .leftRefuseAgain .refuse .button input{
+    width: 198px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.exchange .content .leftRefuseAgain .refuse .button .firstButton{
+    background-color: #2485d7;
+    color: #fff;
+}
+.exchange .content .leftRefuseAgain .refuse .button .secondButton{
+    background-color: #fff;
+}
+.exchange .content .leftRefuseAgain .refuse .upload a{
+    vertical-align: top;
+}
+.exchange .content .leftRefuseAgain .refuse .upload a span{
+    display: block;
+    width: 100%;
+    height: 33px;
+    line-height: 32px;
+    font-size: 30px;
+}
+/*文件上传样式*/
+.form-group{
+    width: 87%;
+    border: 1px solid #e4e4e4;
+    display: inline-block;
+    vertical-align: top;
+    overflow-y: hidden;
+}
+.file-group {
+    position: relative;
+    overflow: hidden;
+    width: 134px;
+}
+.file-group input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 500px;
+}
+.image-item {
+    border: 1px solid #ccc;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #fff;
+}
+.image-item .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 24px;
+    line-height: 24px;
+}
+.image-list {
+    padding: 10px;
+    min-height: 100px;
+    border: 1px #ccc dashed;
+    margin-top: 15px;
+}
+/*换货失败*/
+.exchange .content .leftExchangeFail{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftExchangeFail .exchangeFail{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.exchange .content .leftExchangeFail .exchangeFail .failTitle{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.exchange .content .leftExchangeFail .exchangeFail p{
+    margin: 0px;
+    font-size: 13px;
+    color: #6c6c6c;
+}
+/*同意换货*/
+.exchange .content .leftPromise{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftPromise .promise{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.exchange .content .leftPromise .promise .returnAddress p{
+    float: left;
+}
+.exchange .content .leftPromise .promise .returnAddress p select{
+    width: 588px;
+}
+.exchange .content .leftPromise .promise a{
+    display: inline-block;
+    margin: 15px 0px;
+}
+.exchange .content .leftPromise .promise p textarea{
+    width: 590px;
+    height: 130px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.exchange .content .leftPromise .promise .button{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.exchange .content .leftPromise .promise .button input{
+    width: 198px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.exchange .content .leftPromise .promise .button .firstButton{
+    background-color: #2485d7;
+    color: #fff;
+}
+.exchange .content .leftPromise .promise .button .secondButton{
+    background-color: #fff;
+}
+/*等待买家退货*/
+.exchange .content .leftWaitBuyers{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftWaitBuyers .waitBuyers{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.exchange .content .leftWaitBuyers .waitBuyers p{
+    color: #656565;
+}
+.exchange .content .leftWaitBuyers .waitBuyers .waitTitle{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.exchange .content .leftWaitBuyers .waitBuyers .waitTitle span{
+    font-size: 16px;
+    color: #2485d7;
+    margin-left: 20px;
+}
+/*确认订单，生成新订单*/
+.exchange .content .leftConfirmGoods{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftConfirmGoods .confirmGoods{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.exchange .content .leftConfirmGoods .confirmGoods p{
+    color: #656565;
+}
+.exchange .content .leftConfirmGoods .confirmGoods .confirTitle{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.exchange .content .leftConfirmGoods .confirmGoods .confirTitle span{
+    font-size: 16px;
+    color: #2485d7;
+    margin-left: 20px;
+}
+.exchange .content .leftConfirmGoods .buyersAlready{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.exchange .content .leftConfirmGoods .buyersAlready .buyersTitle{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.exchange .content .leftConfirmGoods .buyersAlready .time{
+    margin-bottom: 10px;
+}
+.exchange .content .leftConfirmGoods .buyersAlready p{
+    margin: 0px;
+}
+.exchange .content .leftConfirmGoods .buyersAlready .button{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.exchange .content .leftConfirmGoods .buyersAlready .button button{
+    width: 198px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.exchange .content .leftConfirmGoods .buyersAlready .button .firstButton{
+    background-color: #2485d7;
+    color: #fff;
+}
+.exchange .content .leftConfirmGoods .buyersAlready .button .secondButton{
+    background-color: #fff;
+}
+/*请等待买家确认完成换货*/
+.exchange .content .leftBuyersConfirm{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftBuyersConfirm .buyersConfirm{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.exchange .content .leftBuyersConfirm .buyersConfirm p{
+    color: #656565;
+}
+.exchange .content .leftBuyersConfirm .buyersConfirm .buyersConfirmTitle{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.exchange .content .leftBuyersConfirm .buyersConfirm .buyersConfirmTitle span{
+    font-size: 16px;
+    color: #2485d7;
+    margin-left: 20px;
+}
+/*换货成功*/
+.exchange .content .leftExchangeSuccess{
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.exchange .content .leftExchangeSuccess .exchangeSuccess{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.exchange .content .leftExchangeSuccess .exchangeSuccess .successTitle{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.exchange .content .leftExchangeSuccess .exchangeSuccess p{
+    margin: 0px;
+    font-size: 13px;
+    color: #6c6c6c;
+}
+/*右边部分*/
+.exchange .content .right{
+    float: left;
+    width: 25%;
+    padding: 0px 20px;
+}
+.exchange .content .right p{
+    margin-bottom: 5px;
+}
+.exchange .content .right span{
+    color: #9c9c9c;
+}
+.exchange .content .right .details{
+    font-size: 17px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e8e8e8;
+}
+.exchange .content .right .goodsInfoOne{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.exchange .content .right .goodsInfoOne img{
+    float: left;
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+}
+.exchange .content .right .goodsInfoTwo{
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.exchange .content .right .goodsInfoTwo p img{
+    float: right;
+}
+.exchange .content .right .goodsInfoThree{
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.exchange .content .right .goodsInfoFour{
+    padding-top: 15px;
+}
+/*常见问题*/
+.exchange .oftenProblem{
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #f8f8f8;
+}
+.exchange .oftenProblem .problemTitle{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+.exchange .oftenProblem .smallTitle{
+    font-size: 14px;
+    color: #000;
+}
+.exchange .oftenProblem .problemContent{
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+/*模态框*/
+#myModal .modal-dialog .modal-content .modal-body input{
+    width: 100%;
+}

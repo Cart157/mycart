@@ -1,0 +1,122 @@
+/*选项样式*/
+/*.main-content-inner ul{
+    width: 100%;
+    height: 30px;
+}
+.main-content-inner ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    cursor: default;
+    color: #0579c6;
+}
+
+.main-content-inner ul li a{
+    display: inline-block;
+}
+
+.main-content-inner ul li:last-child{
+    float: right;
+}
+.main-content-inner ul li:hover{
+    background-color: #ccc;
+}*/
+.li-style{
+    background-color: #5c98d2;
+    color: #fff!important;
+}
+.option{
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+}
+/*出售中宝贝*/
+/*搜索*/
+.sell-goods .search{
+    width: 100%;
+    height: 100px;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+}
+.sell-goods .search span{
+    display: inline-block;
+    width: 33%;
+    margin-top: 13px;
+}
+.sell-goods .search span input{
+    display: inline-block;
+    height: 20px;
+}
+.sell-goods .search span:nth-child(4) input{
+    width: 100px;
+}
+.sell-goods .search span select{
+    height: 20px;
+    padding: 0;
+}
+/*data部分*/
+.sell-goods .data{
+    width: 100%;
+    margin-top: 20px;
+}
+.sell-goods .data p{
+    margin: 0;
+}
+/*公共table样式修改*/
+table thead tr th{
+    text-align: center;
+    cursor: default;
+}
+table thead tr:nth-child(2) th{
+    text-align: left;
+}
+table tbody tr td{
+    text-align: center;
+}
+table tbody tr td .media-body{
+    text-align: left;
+}
+.tools-row th:nth-child(2) .btn-group{
+    border: 1px solid #ccc;
+}
+.tools-row th:nth-child(2) .btn-group button{
+    border: none;
+}
+/*橱窗推荐宝贝*/
+/*搜索*/
+.recommend-goods .search{
+    width: 100%;
+    height: 70px;
+    background-color: #f9f9f9;
+    line-height: 70px;
+    padding-left: 10px;
+}
+.recommend-goods .search input{
+    width: 210px;
+    height: 30px;
+}
+.recommend-goods .search input[type=button]{
+    width: 60px;
+    height: 30px;
+    line-height: 28px;
+    vertical-align: middle;
+    margin-top: -1px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #f9f9f9;
+}
+/*data部分*/
+.recommend-goods .data{
+    width: 100%;
+    margin-top: 20px;
+}
+.recommend-goods .data .already-recommend{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #5c98d2;
+}
+

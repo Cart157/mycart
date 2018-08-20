@@ -1,0 +1,254 @@
+/*header部分*/
+.header{
+    position: relative;
+}
+.header .logo{
+    height: 78px;
+    line-height: 78px;
+    float: left;
+    font-size: 36px;
+    font-weight: 700;
+    color: #5e95f4;
+}
+.header .search{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -15px;
+    margin-right: 12px;
+    width: 510px;
+    height: 30px;
+    border: 2px solid #5e95f4;
+}
+.header .search input{
+    float: left;
+    height: 26px;
+    width: 75%;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    background: url("../image/搜索(1).png") no-repeat;
+    background-position: 5px center;
+}
+.header .search button{
+    float: left;
+    height: 26px;
+    width: 25%;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: #5e95f4;
+    outline: none;
+}
+/*state订单状态*/
+.state{
+    height: 153px;
+    margin-top: 15px;
+}
+.state .state-info{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f58b0f;
+    background-color: #fff7eb;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+.state .state-info .cancel{
+    font-size: 12px;
+    color: #888888;
+}
+/*订单信息*/
+.order{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.order .order-info{
+    width: 128px;
+    height: 25px;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 20px;
+    border: 1px solid #aed2ff;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    z-index: 3333;
+}
+.order .info{
+    width: 100%;
+    border: 1px solid #aed2ff;
+    margin-top: -1px;
+    padding: 0 20px;
+}
+/*买家信息*/
+.order .info .buy-info{
+    width: 100%;
+    height: 130px;
+    margin-top: 24px;
+    border-top: 1px solid #d1d7dc;
+    box-sizing: border-box;
+}
+.order .info .buy-info p{
+    margin: 10px 0;
+    color: black;
+    font-weight: 700;
+}
+.order .info .buy-info span{
+    display: inline-block;
+	width: 20%;
+    height: 30px;
+    margin-right: 80px;
+}
+.order .info .buy-info span a{
+    margin-left: 5px;
+}
+.order .info .buy-info span a img{
+    vertical-align: top;
+}
+/*订单信息*/
+.order .info .order-mes{
+    width: 100%;
+    height: 340px;
+    border-top: 1px solid #d1d7dc;
+    box-sizing: border-box;
+}
+.order .info .order-mes p{
+    margin: 10px 0;
+    color: black;
+    font-weight: 700;
+}
+.order .info .order-mes .order-mes-top{
+    height: 100px;
+}
+.order .info .order-mes .order-mes-top div{
+    margin-right: 30px;
+}
+.order .info .order-mes .order-mes-top .left{
+    float: left;
+    margin-left: 20px;
+}
+.order .info .order-mes .order-mes-top .left span{
+    display: block;
+    height: 30px;
+}
+.order .info .order-mes .order-mes-top .middle{
+    float: left;
+}
+.order .info .order-mes .order-mes-top .middle span{
+    display: block;
+    height: 30px;
+}
+.order .info .order-mes .order-mes-top .right{
+    float: left;
+}
+.order .info .order-mes .order-mes-top .right span{
+    display: block;
+    height: 30px;
+}
+/*table*/
+.order .info .order-mes table{
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+.order .info .order-mes table thead tr{
+    background-color: #e8f2ff;
+    height: 30px;
+    border-bottom: 1px solid #dddddd;
+}
+.order .info .order-mes table thead tr th{
+    text-align: center;
+}
+.order .info .order-mes table tbody tr{
+    height: 80px;
+    box-sizing: border-box;
+}
+.order .info .order-mes table tbody tr td{
+    text-align: center;
+    border-right: 1px solid #dddddd;
+}
+.order .info .order-mes table tbody tr td:first-child span{
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.order .info .order-mes table tbody tr td span{
+    display: block;
+}
+.order .info .order-mes table tbody tr td:nth-child(1){
+    width: 25%;
+    padding: 0 2px;
+}
+.order .info .order-mes table tbody tr td:nth-child(1) img{
+    float: left;
+    width: 30%;
+    height: 80px;
+}
+.order .info .order-mes table tbody tr td:nth-child(1) span{
+    float: left;
+    width: 70%;
+    height: 80px;
+}
+.order .info .order-mes table tbody tr td:nth-child(2){
+    width: 10%;
+}
+.order .info .order-mes table tbody tr td:nth-child(3){
+    width: 10%;
+}
+.order .info .order-mes table tbody tr td:nth-child(4){
+    width: 15%;
+}
+.order .info .order-mes table tbody tr td:nth-child(5){
+    width: 10%;
+}
+.order .info .order-mes table tbody tr td:nth-child(6){
+    width: 10%;
+}
+.order .info .order-mes table tbody tr td:nth-child(7){
+    width: 15%;
+}
+.order .info .order-mes table tbody tr td:nth-child(8){
+    width: 10%;
+}
+/*实收款*/
+.order .info .order-mes .gathering{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: right;
+}
+.order .info .order-mes .gathering span{
+    font-size: 18px;
+    color: #5e95f4;
+}
+/*物流信息*/
+.order .info .logistics-info{
+    width: 100%;
+    height: 173px;
+    border-top: 1px solid #d1d7dc;
+    box-sizing: border-box;
+}
+.order .info .logistics-info p{
+    margin: 10px 0;
+    color: black;
+    font-weight: 700;
+}
+.order .info .logistics-info table{
+    width: 90%;
+}
+.order .info .logistics-info span{
+    margin-top: 5px;
+    padding: 5px 8px;
+    border: 1px solid #dddddd;
+    font-weight: 700;
+    float: right;
+}
+
+.logistics-info table tbody tr td:nth-child(1){
+	width:75px
+}
+
+

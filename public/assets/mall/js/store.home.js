@@ -1,0 +1,14 @@
+$(function(){
+    $('.activity-head').on('click','li:eq(0)',function(){
+        $(this).addClass('head-style').siblings().removeClass('head-style');
+        $('.all-activity').removeClass('hide').siblings().addClass('hide');
+    })
+    $('.activity-head').on('click','li:eq(1)',function(){
+        $(this).addClass('head-style').siblings().removeClass('head-style');
+        $('.join-activity').removeClass('hide').siblings().addClass('hide');
+    })
+    $('.activity-head').on('click','li:eq(2)',function(){
+        $(this).addClass('head-style').siblings().removeClass('head-style');
+        $('.invite-activity').removeClass('hide').siblings().addClass('hide');
+    })
+})

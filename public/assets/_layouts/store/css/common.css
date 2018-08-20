@@ -1,0 +1,171 @@
+body {
+    background: none;
+    overflow-y: scroll;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*.header {
+    border: none;
+}*/
+
+/*.footer .footer-inner .footer-content {
+    left: 0;
+    right: 0;
+}*/
+
+.navbar {
+    background: #3482d4;
+}
+
+.navbar .container {
+    background: #3482d4;
+}
+
+.main-container.container:before {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sidebar:before {
+    top: 131px;
+    border: solid #ccc;
+    border-width: 1px 1px 0 1px;
+    display: none;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.sidebar+.main-content {
+    margin-left: 200px;
+}
+
+.no-skin .sidebar {
+    border: none;
+    background: none;
+}
+
+.no-skin .sidebar {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.no-skin .nav-list>li>a {
+    background: none;
+    font-weight: bold;
+}
+
+.nav.nav-pills {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.nav-pills>li>a {
+    padding: 5px 15px;
+    border-radius: 0;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #78adda;
+}
+
+.form-actions {
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.form-actions .form-group {
+    margin-bottom: 10px;
+}
+
+.form-actions label {
+    width: 100px;
+}
+
+.table-bordered-bottom,
+.table-bordered-bottom>tbody>tr>td,
+.table-bordered-bottom>tbody>tr>th,
+.table-bordered-bottom>tfoot>tr>td,
+.table-bordered-bottom>tfoot>tr>th,
+.table-bordered-bottom>thead>tr>td,
+.table-bordered-bottom>thead>tr>th {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-bordered-bottom>tbody>tr>td,
+.table-bordered-bottom>tbody>tr>th,
+.table-bordered-bottom>tfoot>tr>td,
+.table-bordered-bottom>tfoot>tr>th,
+.table-bordered-bottom>thead>tr>td,
+.table-bordered-bottom>thead>tr>th {
+    padding: 15px 8px;
+}
+
+.table-bordered-bottom>thead>tr {
+    background: none;
+}
+
+.table-bordered-bottom>thead>tr:first-child {
+    border-top: 2px solid #4e9fdc;
+    background: #e1f1fd;
+}
+
+.tools-row th {
+    padding: 15px 0 !important;
+}
+
+.tools-row button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.page-jump {
+    width: 100px;
+}
+
+.page-jump input,
+.page-jump button {
+    height: 32px;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-list>li .submenu>li.hover>a>.menu-icon {
+        left: 4px;
+    }
+    .nav-list>li .submenu>li.hover>a {
+        padding-left: 22px;
+    }
+}
+
+nav-list>li.hover .submenu>li a {
+    padding-left: 22px;
+}
+
+.nav-list>li.hover .submenu>li a>.menu-icon {
+    left: 4px;
+}
+
+/*左侧样式*/
+.nav li div{
+    width: 100%;
+    padding-left: 10px;
+}
+.nav li div p{
+    width: 100%;
+}
+.nav li div p span{
+    display: inline-block;
+    width: 50%;
+}

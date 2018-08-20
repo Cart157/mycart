@@ -1,0 +1,77 @@
+/*仓库选项部分*/
+/*.main-content-inner ul{
+    width: 100%;
+    height: 20px;
+}
+.main-content-inner ul li{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+    cursor: default;
+    color: #0579c6;
+}
+.main-content-inner ul li:nth-child(5){
+    border-right: none;
+}
+.main-content-inner ul li:hover{
+    background-color: #ccc;
+}*/
+/*点击li样式*/
+.li-style{
+    background-color: #5c98d2;
+    color: #fff!important;
+}
+.option{
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+}
+/*搜索*/
+.search{
+    width: 100%;
+    height: 70px;
+    background-color: #f9f9f9;
+    line-height: 70px;
+    padding-left: 10px;
+}
+.search input{
+    width: 210px;
+    height: 20px;
+}
+.search button[type=reset]{
+    width: 70px;
+    height: 20px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+.search button[type=submit]{
+    width: 70px;
+    height: 20px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+/*data部分样式*/
+.data{
+    margin-top: 20px;
+}
+.data p{
+    margin: 0;
+}
+/*table样式修改*/
+table thead tr th{
+    text-align: center;
+    cursor: default;
+}
+table thead tr:nth-child(2) th{
+    text-align: left;
+}
+table tbody tr td{
+    text-align: center;
+}
+table tbody tr td .media-body{
+    text-align: left;
+}

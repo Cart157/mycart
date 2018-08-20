@@ -1,0 +1,294 @@
+/* 
+* @Author: anchen
+* @Date:   2017-11-15 15:40:25
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-11-15 17:44:36
+*/
+/*公共样式--开始*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    width: 100%;
+    height: 100%;
+    min-width: 1210px;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hide{
+    display: none;
+}
+.container{
+    width: 1210px!important;
+    margin: 0 auto;
+    padding: 0!important;
+    position: relative;
+}
+/*隐藏*/
+.conceal{
+    visibility: hidden;
+}
+/* search部分 */
+html,body{
+    background-color: #f8f8f8;
+}
+/* header */
+header{
+    height: 72px;
+    line-height: 72px;
+}
+header .logo-img{
+    float: left;
+}
+header .right-nav{
+    float: right;
+}
+header .right-nav .top-nav li{
+    float: left;
+    width: 110px;
+    height: 72px;
+    text-align: right;
+}
+/*home*/
+.home{
+    width: 100%;
+    background-color: #fff;
+}
+/*logo-search*/
+.home .logo-search{
+    height: 140px;
+}
+/*logo*/
+.home .logo-search .logo{
+    float: left;
+    width: 114px;
+    height: 140px;
+    line-height: 140px;
+    margin-right: 110px;
+}
+.home .logo-search .logo img{
+    width: 114px;
+    height: 76px;
+}
+/*search*/
+.home .logo-search .search{
+    float: left;
+}
+.home .logo-search .search .search-top{
+    margin-top: 40px;
+}
+.home .logo-search .search .search-top input{
+    float: left;
+    width: 618px;
+    height: 40px;
+    border: 2px solid #5e94f3;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.home .logo-search .search .search-top button{
+    width: 142px;
+    height: 40px;
+    background-color: #5e94f3;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+/*search ul*/
+.home .logo-search .search ul{
+    margin-top: 12px;
+}
+.home .logo-search .search ul li{
+    float: left;
+}
+.home .logo-search .search ul li a{
+    font-size: 14px;
+    color: #989898;
+}
+.home .logo-search .search ul span{
+    float: left;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #989898;
+    margin: 4px 9px;
+}
+/*layout分类部分*/
+.li-style{
+    background-color: #5e94f3;
+    color: #fff!important;
+}
+.layout .file{
+    width: 100%;
+    border-bottom: 2px solid #5e94f3;
+}
+.layout .file li{
+    float: left;
+    width: 98px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    cursor: default;
+    color: #000;
+    font-size: 16px;
+}
+.layout .file li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 256px;
+    background-color: #262c3e;
+    margin-top: 100px;
+    /* text-align: center; */
+    color: #f2f2f2;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+footer .footer-content{
+
+}
+footer .footer-content .ban-img{
+    float: left;
+}
+footer .footer-content .company{
+    float: left;
+    margin-left: 45px;
+}
+footer .footer-content .company p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+footer .footer-content .company p:nth-child(1){
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+footer .footer-content .download-img{
+    float: left;
+    margin-left: 50px;
+}
+footer .footer-content .download-img div {
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+footer .footer-content .download-img div p{
+    margin-top: 10px;
+}
+footer .footer-content .our{
+    float: left;
+    margin-left: 80px;
+}
+footer .footer-content .our p{
+    margin-top: 10px;
+}
+footer .footer-content .our p:nth-child(1){
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+footer .footer-content .our p:nth-child(1) span{
+    margin-right: 20px;
+}
+/* 二维码div */
+.qr-code{
+    position: fixed;
+    right: -310px;
+    bottom: 0px;
+    width: 300px;
+    height: 224px;
+    background-color: #fff;
+    padding: 22px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 111;
+    box-shadow: 0 0 3px 3px #ccc;
+}
+.qr-code .code-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 17px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: default;
+}
+.qr-code .code-left{
+    float: left;
+    width: 50%;
+}
+.qr-code .code-left img{
+    margin-bottom: 20px;
+}
+.qr-code .code-right{
+    float: right;
+    width: 50%;
+}
+.qr-code .code-right img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}

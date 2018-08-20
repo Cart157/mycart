@@ -1,0 +1,246 @@
+/*面包屑*/
+.breadcrumb>li+li:before {
+    font-family: FontAwesome;
+    font-size: 14px;
+    content: ">";
+    color: #B2B6BF;
+    padding: 0;
+    margin: 0 8px 0 0;
+    position: relative;
+    top: 1px;
+}
+/*样式开始*/
+.min-content-info {
+    float: left;
+    margin-top: 18px;
+    width: 100%;
+}
+/*第一步*/
+.min-content-info .first .first-confirm{
+    height: 37px;
+    line-height: 36px;
+}
+.min-content-info .first .first-confirm span:nth-child(1){
+    color: #ff6600;
+    font-weight: 700;
+    margin-right: 17px;
+}
+.min-content-info .first .first-confirm span:nth-child(2){
+    color: #000;
+    font-weight: 700;
+}
+.min-content-info .first .table{
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-bottom: 0px;
+    position: relative;
+}
+.min-content-info .first .table .top{
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #e8f2ff;
+}
+.min-content-info .first .table .middle{
+    padding: 0px 5px;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.min-content-info .first .table .middle tr{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.min-content-info .first .table .middle tr td:first-child{
+    width: 60%;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+.min-content-info .first .table .middle tr td:first-child img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 5px;
+    clear: both;
+}
+.min-content-info .first .table .middle tr td:first-child a{
+    display: block;
+    color: #6e66d6;
+    text-decoration: none;
+}
+.min-content-info .first .table .middle tr td:first-child span{
+    display: block;
+}
+.min-content-info .first .table .middle tr td:first-child p{
+    float: right;
+    margin-right: 20px;
+}
+.min-content-info .first .table .middle tr td{
+    width: 40%;
+    padding: 0px 5px;
+}
+.min-content-info .first .table .middle tr td span{
+    display: block;
+}
+.min-content-info .first .table .middle tr td textarea{
+    width: 300px;
+    height: 70px;
+    vertical-align: top;
+}
+.min-content-info .first .table .bottom{
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.min-content-info .first .table .bottom a{
+    float: right;
+    color: #6e66d6;
+    text-decoration: none;
+}
+/*修改买家收货地址*/
+.min-content-info .first .table .modify{
+    position: absolute;
+    top: 95%;
+    right: 0%;
+    width: 50%;
+    background-color: #fff7e5;
+    border: 1px solid #ccc;
+    z-index: 1111;
+    padding: 10px;
+}
+.min-content-info .first .table .modify p{
+    margin: 0px 0px 2px 0px;
+}
+.min-content-info .first .table .modify p select{
+    width: 120px;
+    /*height: 20px;*/
+    margin-bottom: 2px;
+}
+.min-content-info .first .table .modify p input{
+    height: 20px;
+    margin-right: 2px;
+}
+.min-content-info .first .table .modify .phone input:nth-child(1){
+    width: 42px;
+}
+.min-content-info .first .table .modify .phone input:nth-child(2){
+    width: 120px;
+}
+.min-content-info .first .table .modify .phone input:nth-child(3){
+    width: 42px;
+}
+.min-content-info .first .table .modify .confirm{
+    display: block;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #1371ff;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: default;
+    margin-top: 5px;
+}
+.min-content-info .first .table .modify i{
+    font-style: normal;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: default;
+}
+.min-content-info .first .table .modify span{
+    margin-left: 65px;
+}
+/*第二步*/
+.min-content-info .second .second-confirm{
+    height: 37px;
+    line-height: 36px;
+}
+.min-content-info .second .second-confirm span:nth-child(1){
+    color: #ff6600;
+    font-weight: 700;
+    margin-right: 17px;
+}
+.min-content-info .second .second-confirm span:nth-child(2){
+    color: #000;
+    font-weight: 700;
+}
+.min-content-info .second .second-table{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.min-content-info .second .second-table .top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 5px;
+}
+.min-content-info .second .second-table .top a{
+    float: right;
+    color: #6e66d6;
+    text-decoration: none;
+}
+.min-content-info .second .second-table .bottom{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    background-color: #f2f2f2;
+}
+.min-content-info .second .second-table .bottom a{
+    float: right;
+    color: #6e66d6;
+    text-decoration: none;
+}
+/*第三步*/
+.min-content-info .third .third-confirm{
+    height: 37px;
+    line-height: 36px;
+}
+.min-content-info .third .third-confirm span:nth-child(1){
+    color: #ff6600;
+    font-weight: 700;
+    margin-right: 17px;
+}
+.min-content-info .third .third-confirm span:nth-child(2){
+    color: #000;
+    font-weight: 700;
+}
+.min-content-info .third .third-confirm .care{
+    color: #808080;
+}
+.min-content-info .third .third-confirm a{
+    color: #6e66d6;
+    text-decoration: none;
+}
+.min-content-info .third .express{
+    margin: 20px 0px;
+}
+.min-content-info .third .express select{
+    height: 30px;
+    border: 1px solid #90c9ff;
+}
+.min-content-info .third .number input{
+    width: 315px;
+    height: 30px;
+    border: 1px solid #90c9ff;
+    float: left;
+}
+.min-content-info .third .number button{
+    width: 85px;
+    height: 30px;
+    background-color: #90c9ff;
+    color: #fff;
+    border: none;
+}
+.min-content-info .third .number button:active{
+    background-color: blue;
+}
+/*模态框*/
+.modal .modal-dialog .modal-body input{
+    width: 100%;
+}

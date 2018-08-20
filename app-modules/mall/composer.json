@@ -1,0 +1,23 @@
+{
+    "name": "fanybook/mall",
+    "description": "Fanybook Module mall.",
+    "keywords": ["fanybook", "module"],
+    "homepage": "https://fanybook.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Fanybook",
+            "email": "fanybook@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mall\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Mall\\Tests\\": "tests/"
+        }
+    }
+}

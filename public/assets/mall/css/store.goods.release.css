@@ -1,0 +1,421 @@
+/*面包屑*/
+.breadcrumb>li+li:before {
+    font-family: FontAwesome;
+    font-size: 14px;
+    content: ">";
+    color: #B2B6BF;
+    padding: 0;
+    margin: 0 8px 0 0;
+    position: relative;
+    top: 1px;
+}
+/*样式开始*/
+.red{
+    color: red;
+    font-weight: 700;
+}
+/*名称宽度*/
+.ralignment{
+    display: inline-block;
+    width: 12%;
+}
+/*清楚样式*/
+.content{
+    color: black;
+    float: left;
+    margin-top: 16px;
+    width: 100%;
+}
+/*宝贝类型*/
+.content .type span{
+    margin-right: 15px;
+}
+/*绑定ID*/
+.content .binding{
+    margin-top: 10px;
+    width: 100%;
+}
+.content .binding .product-info{
+    width: 87%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.content .binding .product-info .product{
+    /*width: 50%;*/
+}
+.product-info .select2-container{
+    width: 100%!important;
+}
+/*规格*/
+.content .spec{
+    margin-top: 10px;
+}
+.content .spec .input-box{
+    display: inline-block;
+    width: 87%;
+    vertical-align: top;
+}
+.content .spec .input-box span{
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+}
+.content .spec .input-box span input{
+    margin-left: 3px;
+    height: 30px;
+    vertical-align: middle;
+    border: none;
+    background-color: transparent!important;
+}
+/*所属分类*/
+.content .classify{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.content .classify .classify-box{
+    display: inline-block;
+    vertical-align: middle;
+    width: 87%;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+.content .classify .classify-box .brand{
+    height: 200px;
+    padding-right: 0px;
+}
+.content .classify .classify-box .brand .brand-box{
+    height: 200px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+.content .classify .classify-box .set{
+    height: 200px;
+    padding: 0px;
+}
+.content .classify .classify-box .set .set-box{
+    height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+.content .classify .classify-box .spu{
+    height: 200px;
+    padding: 0px 12px 0px 0px;
+}
+.content .classify .classify-box .spu .spu-box{
+    height: 200px;
+    overflow-y: auto;
+}
+.content .classify .classify-box ul span{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+}
+.content .classify .classify-box ul li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.wall{
+    color: #3a87ad;
+    border: 1px solid #bce8f1;
+    background-color: #d9edf7;
+}
+/*列表部分*/
+.content .content-info{
+    margin-top: 18px;
+    width: 100%;
+}
+/*tab切换*/
+.content .content-info .tab{
+    width: 100%;
+    display: inline-block;
+}
+.content .content-info .tab li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 5px 0;
+    cursor: default;
+    border: 1px dashed #ccc;
+}
+.li-style{
+    background-color: #5e95f4;
+    color: #fff;
+}
+/*宝贝标题*/
+.content .title{
+    padding-top: 10px;
+}
+.content .title p{
+    display: inline;
+}
+.content .title input{
+    height: 30px;
+    width: 87%;
+    color: #000;
+    outline: none;
+    border: 1px solid #aaa;
+    padding: 3px 3px 3px 10px;
+    box-shadow: inset 0px 1px 4px #ECECEC!important;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC!important;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC!important;  
+}
+.content .title .num{
+    margin: 0 5px;
+    color: red;
+    font-weight: 600;
+}
+/*配置信息*/
+.content .mes{
+    margin-top: 10px;
+    width: 100%;
+}
+.content .mes span{
+    width: 8%;
+}
+.content .mes-box{
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+}
+.content .mes-box table{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.content .mes-box table tr{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.content .mes-box table tr td:nth-child(1){
+    width: 9%;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-right: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content .mes-box table tr td:nth-child(2){
+    width: 91%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*宝贝图片*/
+.content .img{
+    margin-top: 10px;
+    width: 100%;
+}
+.content .img .img-title{
+    width: 8%;
+}
+.content .img .form-group{
+    width: 87%;
+    border: 1px solid #e4e4e4;
+    display: inline-block;
+    vertical-align: top;
+    overflow-y: hidden;
+}
+.file-group {
+    position: relative;
+    overflow: hidden;
+    width: 134px;
+}
+.file-group input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 500px;
+}
+.image-item {
+    border: 1px solid #ccc;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.image-item img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.image-item .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 24px;
+    line-height: 24px;
+}
+.image-list {
+    padding: 10px;
+    min-height: 100px;
+    border: 1px #ccc dashed;
+    margin-top: 15px;
+}
+/*长长的分界线*/
+.img .form-group .default-img{
+    background-color: #f8f8f8;
+    padding: 10px;
+    min-height: 100px;
+}
+.img .form-group .default-img img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+/*鞋码*/
+.content .size{
+    margin-top: 10px;
+    width: 100%;
+}
+.content .size span{
+    display: inline-block;
+}
+.content .size .size-shoe{
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ececec;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+.content .size .size-shoe div{
+    display: inline-block;
+    width: 24%;
+}
+.content .size .size-shoe div input[type=text]{
+    width: 35%;
+    height: 20px;
+    display: inline-block;
+    border: none;
+}
+input[disabled]{
+    background-color: #f8f8f8!important;
+}
+/*宝贝描述*/
+.content .introduce{
+    width: 100%;
+    margin-top: 10px;
+}
+.content .introduce p{
+    display: inline;
+}
+.content .contents{
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+}
+/*运费*/
+.content .fare{
+    width: 100%;
+    margin-top: 10px;
+}
+.content .fare p{
+    display: inline;
+}
+.content .fare span{
+    margin-right: 15px;
+}
+.content .fare .fare1{
+    width: 100px;
+    height: 30px;
+}
+.content .fare input[type=text]{
+    margin: 0 5px;
+    color: #000;
+    outline: none;
+    border: 1px solid #aaa;
+    padding: 3px 3px 3px 10px;
+    box-shadow: inset 0px 1px 4px #ECECEC!important;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC!important;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC!important;  
+}
+/*上架时间*/
+.content .grounding-time{
+    width: 100%;
+    margin-top: 10px;
+}
+.content .grounding-time .time{
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+}
+.content .grounding-time .time input[type=radio]{
+    margin-right: 5px;
+}
+.content .grounding-time .time input[type=text]{
+    margin: 0 5px;
+    width: 300px;
+    color: #000;
+    outline: none;
+    border: 1px solid #aaa;
+    padding: 3px 3px 3px 10px;
+    box-shadow: inset 0px 1px 4px #ECECEC!important;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC!important;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC!important; 
+}
+/*发票*/
+.content .bill{
+    width: 100%;
+}
+.content .bill input{
+    margin-right: 5px;
+}
+.content .bill .bill2{
+    margin-left: 20px;
+}
+/*质保卡*/
+.content .card{
+    width: 100%;
+}
+.content .card .input{
+    margin-right: 5px;
+}
+.content .card .card2{
+    margin-left: 20px;
+}
+/*服务保障*/
+.content .service{
+    width: 100%;
+}
+.content .service .service-ensure{
+    width: 87%;
+    display: inline-block;
+    vertical-align: top;
+}
+/*确认*/
+.upload{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    /*height: 33px;*/
+    border: 1px solid #e6e6e6;
+    background-color: #f9f9fa;
+    text-align: center;
+}
+.upload span{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    width: 80px;
+    background-color: #5f9fff;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+/*回到顶部a*/
+#btn-scroll-up{
+    z-index: 1000;
+}
+

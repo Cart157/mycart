@@ -1,0 +1,162 @@
+.delivery{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+/*发货选项*/
+.delivery .delivery-option ul{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #add2fe;
+}
+.delivery .delivery-option ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin-left: 5px;
+    border-top: 1px solid #add2fe;
+    border-left: 1px solid #add2fe;
+    border-right: 1px solid #add2fe;
+    cursor: default;
+}
+/*选中li样式*/
+.li-style{
+    background-color: #e8f2ff;
+    color: #3366cc;
+    font-weight: 600;
+    border-bottom: 1px solid #e8f2ff;
+}
+/*等待发货搜索*/
+.delivery .wait-search{
+    width: 100%;
+    height: 110px;
+}
+.delivery .wait-search span{
+    display: inline-block;
+    width: 25%;
+    height: 22px;
+    margin-top: 10px;
+}
+.delivery .wait-search span input{
+    width: 100px;
+    height: 22px;
+}
+.delivery .wait-search span select{
+    width: 100px;
+    height: 22px;
+    line-height: 18px;
+    padding: 0;
+}
+.delivery .wait-search span:nth-child(3) input{
+    width: 70px;
+    height: 22px;
+}
+.delivery .wait-search span:nth-child(4) input{
+    width: 114px;
+    height: 22px;
+}
+.delivery .wait-search span:nth-child(7){
+    width: 100%;
+    text-align: center;
+}
+/*等待发货操作*/
+.delivery .wait-handle{
+    width: 100%;
+}
+.delivery .wait-handle .check-all{
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.delivery .wait-handle .check-all input[type=button]{
+    height: 20px;
+    padding: 0;
+}
+.delivery .wait-handle .check-all span{
+    border: 1px solid #40b3ff;
+    background-color: #e5f5ff;
+    padding-left: 5px;
+}
+.delivery .wait-handle table{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.delivery .wait-handle table tr:first-child{
+    background-color: #e8f2ff;
+    height: 36px;
+    border-bottom: 1px solid #ccc;
+}
+.delivery .wait-handle table tr:first-child td{
+    height: 36px;
+}
+.delivery .wait-handle table tr:first-child td span{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.delivery .wait-handle table tr:first-child td input{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.delivery .wait-handle table tr{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #ccc;
+}
+.delivery .wait-handle table tr td:nth-child(1){
+    width: 55%;
+    /*height: 120px;*/
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-right: 1px solid #ccc;
+}
+.delivery .wait-handle table tr td:nth-child(1) img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 5px;
+}
+.delivery .wait-handle table tr td:nth-child(1) a{
+    display: block;
+    color: #3366d6;
+    text-decoration: none;
+}
+.delivery .wait-handle table tr td:nth-child(1) span{
+    /*display: block;*/
+}
+.delivery .wait-handle table tr td:nth-child(1) p{
+    margin-top: 10px;
+    margin-right: 140px;
+    float: right;
+}
+.delivery .wait-handle table tr td:nth-child(2){
+    width: 45%;
+    height: 120px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.delivery .wait-handle table tr td:nth-child(2) span{
+    display: block;
+    padding: 0;
+}
+.delivery .wait-handle table tr td:nth-child(2) span span{
+    display: inline;
+    color: #808080;
+}
+.delivery .wait-handle table tr:last-child{
+    height: 36px;
+    line-height: 36px;
+}
+.delivery .wait-handle table tr:last-child td{
+    width: 100%;
+    height: 36px;
+    align-content: middle;
+}
+.delivery .wait-handle table tr:last-child td input[type=button]{
+    float: right;
+    margin-right: 20px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
